@@ -1,0 +1,7 @@
+@mixin input-box($width) {
+    width: $width;
+    height: 52px;
+    padding-left: 10px;
+    border: 0.5px solid rgba(68, 68, 68, 0.192);
+    font-size: inherit;
+  }

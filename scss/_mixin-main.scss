@@ -1,0 +1,16 @@
+@mixin input-box($w,$h) {
+    width: $w;
+    height: $h;
+}
+
+@mixin imgBox {
+  height: 160px;
+  background-position: center;
+}
+
+@mixin collection_image {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    border-radius: 6px;
+}

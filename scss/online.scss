@@ -1,0 +1,306 @@
+@import "base";
+@import "var-online";
+@import "mixin-online";
+
+.grid--gap {
+  grid-gap: 25px;
+}
+
+.flex {
+  display: flex;
+}
+
+.justify--end {
+  justify-content: space-between;
+}
+
+/* Header */
+.header {
+  padding: 24px 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-img {
+  width: 127px;
+  height: 27px;
+  cursor: pointer;
+}
+
+.input-box {
+  display: flex;
+  font-size: 18px;
+}
+
+.inp-location {
+  border-right: none;
+  border-bottom-left-radius: 8px;
+  border-top-left-radius: 8px;
+  @include input-box(240px);
+}
+
+.inp-search {
+  border-left: none;
+  border-bottom-right-radius: 8px;
+  border-top-right-radius: 8px;
+  @include input-box(415px);
+}
+
+.nav-links {
+  font-size: 20px;
+  font-weight: lighter;
+  width: 200px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: $nav-link--clr;
+  &:hover {
+    color: $font-black;
+  }
+}
+
+.page-types-box {
+  padding-top: 25px;
+  display: flex;
+  gap: 25px;
+  font-size: 24px;
+  align-items: center;
+  a {
+    text-decoration: none;
+    color: $font-black-clr;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+}
+
+.nav-icons {
+  color: $font-black-clr-1;
+  background-color: $nav-icons-bg-clr;
+  padding: 20px;
+  border-radius: 50%;
+  &:hover {
+    background-color: $nav--icons-hover;
+  }
+}
+
+.type--text:hover {
+  color: $text--hover;
+}
+
+.align-center {
+  display: flex;
+  align-items: baseline;
+}
+
+.horizontal {
+  color: $horizontal-clr;
+}
+
+/* Filter section */
+.filter-section {
+  padding: 20px 0;
+  border-top: 0.2px solid $filter--border-top;
+}
+
+.filter-boxes {
+  display: flex;
+  gap: 32px;
+}
+
+.filter-box {
+  padding: 12px 8px;
+  border: 0.1px solid $filter--box-border;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+/* Product Section */
+.products-section {
+  padding: 48px 0;
+}
+
+.primary--heading {
+  color: $font-black-clr;
+  font-size: 32px;
+  margin: 10px 0 16px;
+}
+
+.product-box {
+  cursor: pointer;
+  &:hover {
+    border: 0.3px $product--border solid;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px $product--shadow;
+  }
+}
+
+.product-details {
+  padding: 10px;
+}
+
+.prod-img-box {
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.prod--img {
+  width: 100%;
+}
+
+.prod-desc-box {
+  padding: 10px 0;
+}
+
+.desc--head {
+  margin-bottom: 8px;
+  display: flex;
+  align-items: baseline;
+}
+
+.prod--head {
+  font-size: 18px;
+  color: $font-black;
+}
+
+.prod--rating {
+  font-size: 14px;
+  color: $product--rate-clr;
+  background-color: $product--rate-bg-clr;
+  padding: 5px 8px;
+}
+
+.desc--cont {
+  font-size: 15px;
+  color: $desc--cont-clr;
+  padding: 8px 0 12px;
+  border-bottom: 0.2px solid $filter--border-top;
+}
+
+.prod-total-order {
+  font-size: 12px;
+  color: $product--order-clr;
+}
+
+.border-top {
+  gap: 6px;
+  align-items: center;
+}
+
+.total-icon {
+  font-size: 16px;
+  color: $total-icon-color;
+  background-color: $total-icon-bg-clr;
+  padding: 5px;
+  border-radius: 50%;
+}
+/* Footer */
+
+.footer {
+  background-color: $footer--bg-clr;
+}
+
+.footer-box {
+  padding: 42px 0;
+}
+
+.flex {
+  display: flex;
+}
+
+.footer-top {
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+
+.footer-header {
+  color: $font-black;
+  font-size: 36px;
+  font-weight: bolder;
+}
+
+.footer-country {
+  margin-right: 10px;
+}
+
+.footer-country,
+.footer-lang {
+  display: flex;
+  border: 1px solid $footer-country-border;
+  border-radius: 10px;
+  font-size: 20px;
+  padding: 8px 14px;
+  justify-content: center;
+  span {
+    margin: 0 5px;
+  }
+}
+
+.footer-headding {
+  font-size: 18px;
+  font-weight: 600;
+  color: $font-black;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+}
+
+.footer-lists {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  color: $font-black-clr-1;
+}
+
+.footer-rest {
+  margin-bottom: 22px;
+}
+
+.footer-social-links {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 24px;
+}
+
+.footer-logo {
+  width: 24px;
+  height: 24px;
+  background-color: $font-black;
+  color: $product--rate-clr;
+  padding: 4px;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-store {
+  img {
+    width: 140px;
+  }
+}
+
+.footer-apple {
+  margin-bottom: 12px;
+}
+
+.footer-details {
+  margin-bottom: 24px;
+}
+
+.copyright-box {
+  border-top: 0.5px solid $copyright--border-top;
+}
+
+.copyright-text {
+  font-size: 14px;
+  padding: 24px 0;
+}

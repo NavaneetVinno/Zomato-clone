@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel = "icon" href = '../assets/Zomato_logo.png'
+        type = "image/x-icon">
+    <link rel="stylesheet" href="signup.css" />
+    <title>SignUp | Zomato</title>
+  </head>
+  <body>
+    <main>
+      <div class="signup-box container">
+        <form action="" method="post" class="signup-form">
+          <h2 class="sign--head">Sign Up</h2>
+          <div>
+            <label for="name">Name</label>
+            <input
+              value=""
+              type="text"
+              id="name"
+              name="name"
+              class="inp name--inp"
+              placeholder="xyz"
+              required
+            />
+          </div>
+          <div>
+            <label for="email">Email</label>
+            <input
+              value=""
+              type="email"
+              id="email"
+              name="email"
+              class="inp email--inp"
+              placeholder="my@example.com"
+              required
+            />
+          </div>
+          <div>
+            <label for="phone">Phone</label>
+            <input
+              value=""
+              type="number"
+              id="phone"
+              name="phone"
+              class="inp phone--inp"
+              placeholder="0000000000"
+              required
+            />
+          </div>
+          <div>
+            <label for="password">Password</label>
+            <input
+              value=""
+              type="password"
+              id="pass"
+              name="password"
+              class="inp pass--inp"
+              placeholder="Enter strong password"
+              required
+            />
+          </div>
+          <input
+            type="button"
+            value="Sign Up"
+            class="btn--inp"
+            onclick="getData()"
+          />
+          <a href="" class="forg--pass">Forgot password</a>
+        </form>
+      </div>
+    </main>
+  </body>
+</html>
+<script src="signup.js"></script>

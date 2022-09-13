@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel = "icon" href = '/assets/Zomato_logo.png'
+        type = "image/x-icon">
+    <link rel="stylesheet" href="../css/night.css" />
+    <title>Nightlife Restaurants</title>
+  </head>
+  <body>
+    <header class="container header">
+      <nav class="navbar">
+        <div class="nav-logo">
+          <img
+            class="nav-img"
+            src="https://b.zmtcdn.com/web_assets/b40b97e677bc7b2ca77c58c61db266fe1603954218.png"
+            alt="Zomato logo"
+          />
+        </div>
+        <div class="input-box">
+          <input
+            class="inp-location"
+            type="text"
+            placeholder="Enter your location"
+          />
+          <input
+            class="inp-search"
+            type="text"
+            placeholder="Enter your favorite food"
+          />
+        </div>
+        <div class="nav-links">
+          <div>
+            <a class="nav-link" href="#">Log In</a>
+          </div>
+          <div>
+            <a class="nav-link" href="../signup/signup.html">Sign Up</a>
+          </div>
+        </div>
+      </nav>
+      <div class="page-types-box">
+        <div class="delivery-page align-center">
+          <a href="/online/online.html"
+            ><ion-icon class="nav-icons" name="bicycle-outline"></ion-icon
+            ><span class="type--text"> Delivery</span></a
+          >
+        </div>
+        <div class="dining-page align-center">
+          <a href="/dining/dining.html"
+            ><ion-icon class="nav-icons" name="restaurant-outline"></ion-icon>
+            <span class="type--text">
+
+              Dining Out
+            </span>
+            </a
+          >
+        </div>
+        <div class="night-page align-center">
+          <a href="/nightlife/night.html"
+            ><ion-icon class="nav-icons" name="beer-outline"></ion-icon>
+            <span class="type--text">
+
+              Nightlife
+            </span>
+            </a
+          >
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="filter-section">
+        <div class="container">
+          <div class="filter-boxes">
+            <div class="filter-box">
+              <ion-icon name="options-outline"></ion-icon><span>Filters</span>
+            </div>
+            <div class="filter-box">
+              <ion-icon name="trail-sign-outline"></ion-icon
+              ><span>Delivery time</span>
+            </div>
+            <div class="filter-box"><span>Rating: 4.0+</span></div>
+            <div class="filter-box"><span>Pure Veg</span></div>
+            <div class="filter-box">
+              <span>Cuisines</span
+              ><ion-icon name="chevron-down-outline"></ion-icon>
+            </div>
+            <div class="filter-box">
+              <span>More filters</span
+              ><ion-icon name="chevron-down-outline"></ion-icon>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="products-section">
+        <div class="container">
+          <h2 class="primary--heading">Best Dining Restaurants near You</h2>
+          <div class="products--box grid grid--3-cols grid--gap">
+            <!-- <div class="product-box">
+              <div class="product-details">
+                <div class="prod-img-box">
+                  <img
+                    class="prod--img"
+                    src="/assets/dining/dining 1 prod.avif"
+                    alt="The Corner Of Chow"
+                  />
+                </div>
+                <div class="prod-desc-box">
+                  <div class="flex justify--end desc--head">
+                    <h4 class="prod--head">Ironhill Bangalore</h4>
+                    <p class="prod--rating">
+                      4.4 <ion-icon name="star-outline"></ion-icon>
+                    </p>
+                  </div>
+                  <div class="flex justify--end desc--cont">
+                    <p class="prod--ingridients">Continental, North Indian</p>
+                    <p class="prod--price">₹1600 for two</p>
+                  </div>
+                </div>
+                <div class="restaurant--location">
+                  <p>Marathahalli, Bangalore</p>
+                </div>
+              </div>
+            </div> -->
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container footer-box">
+        <div class="flex footer-top">
+          <div>
+            <h2 class="footer-header">zomato</h2>
+          </div>
+          <div class="flex footer-globe">
+            <p class="footer-country">
+              <ion-icon name="flag-outline"></ion-icon><span>India</span
+              ><ion-icon name="chevron-down-outline"></ion-icon>
+            </p>
+            <p class="footer-lang">
+              <ion-icon name="globe-outline"></ion-icon><span>English</span
+              ><ion-icon name="chevron-down-outline"></ion-icon>
+            </p>
+          </div>
+        </div>
+        <div class="footer-details grid grid--5-cols">
+          <div class="footer-about">
+            <p class="footer-headding">about zomato</p>
+            <ul class="footer-lists">
+              <li class="footer-list">Who we are</li>
+              <li class="footer-list">Blog</li>
+              <li class="footer-list">Work with us</li>
+              <li class="footer-list">Investor relations</li>
+              <li class="footer-list">Report Fraud</li>
+            </ul>
+          </div>
+          <div class="footer-zomaverse">
+            <p class="footer-headding">zomaverse</p>
+            <ul class="footer-lists">
+              <li class="footer-list">Zomato</li>
+              <li class="footer-list">Feeding India</li>
+              <li class="footer-list">Hyperpure</li>
+              <li class="footer-list">Zomaland</li>
+            </ul>
+          </div>
+          <div class="footer-hotels">
+            <div class="footer-rest">
+              <p class="footer-headding">For Restaurants</p>
+              <ul class="footer-lists">
+                <li class="footer-list">Partner With Us</li>
+                <li class="footer-list">Apps For You</li>
+              </ul>
+            </div>
+            <div>
+              <p class="footer-headding">for enterprises</p>
+              <p class="footer-lists">Zomato For Work</p>
+            </div>
+          </div>
+          <div class="footer-learn">
+            <p class="footer-headding">learn more</p>
+            <ul class="footer-lists">
+              <li class="footer-list">Privacy</li>
+              <li class="footer-list">Security</li>
+              <li class="footer-list">Terms</li>
+              <li class="footer-list">Sitemap</li>
+            </ul>
+          </div>
+          <div class="footer-links">
+            <p class="footer-headding">social links</p>
+            <div class="footer-social-links">
+              <div class="footer-logo">
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </div>
+              <div class="footer-logo">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </div>
+              <div class="footer-logo">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </div>
+              <div class="footer-logo">
+                <ion-icon name="logo-youtube"></ion-icon>
+              </div>
+              <div class="footer-logo">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </div>
+            </div>
+            <div class="footer-apple footer-store">
+              <img src="/assets/apple store.webp" alt="Apple Store" />
+            </div>
+            <div class="footer-goole footer-store">
+              <img src="/assets/google play.webp" alt="Google Play Store" />
+            </div>
+          </div>
+        </div>
+        <div class="copyright-box">
+          <p class="copyright-text">
+            By continuing past this page, you agree to our Terms of Service,
+            Cookie Policy, Privacy Policy and Content Policies. All trademarks
+            are properties of their respective owners. 2008-2022 © Zomato™ Ltd.
+            All rights reserved.
+          </p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
+<script
+  type="module"
+  src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+></script>
+<script
+  nomodule
+  src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+></script>
+<script src="night.js"></script>

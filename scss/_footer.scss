@@ -1,0 +1,100 @@
+.footer {
+  background-color: $footer--bg-clr;
+}
+
+.footer-box {
+  padding: 42px 0;
+}
+
+.flex {
+  display: flex;
+}
+
+.footer-top {
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+
+.footer-header {
+  color: $font--clr-black;
+  font-size: 36px;
+  font-weight: bolder;
+}
+
+.footer-country {
+  margin-right: 10px;
+}
+
+.footer-country,
+.footer-lang {
+  display: flex;
+  border: 1px solid $footer--border;
+  border-radius: 10px;
+  font-size: 20px;
+  padding: 8px 14px;
+  justify-content: center;
+  span {
+    margin: 0 5px;
+  }
+}
+
+.footer-headding {
+  font-size: 18px;
+  font-weight: 600;
+  color: $font--clr-black;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+}
+
+.footer-lists {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  color: $nav--icon-clr;
+}
+
+.footer-rest {
+  margin-bottom: 22px;
+}
+
+.foo-img {
+  width: 140px;
+}
+
+.footer-social-links {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 24px;
+}
+
+.footer-logo {
+  width: 24px;
+  height: 24px;
+  background-color: $font--clr-black;
+  color: $white--clr;
+  padding: 4px;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  img {
+    width: 140px;
+  }
+}
+
+.footer-apple {
+  margin-bottom: 12px;
+}
+
+.footer-details {
+  margin-bottom: 24px;
+}
+
+.copyright-box {
+  border-top: 0.5px solid $copyright--border;
+}
+
+.copyright-text {
+  font-size: 14px;
+  padding: 24px 0;
+}
